@@ -55,6 +55,11 @@ On a new terminal run the ```master.py``` file. This file takes in positional ar
 ```
 python3 master.py '<path-to-config.json-file>' 'RR'
 ```
+#### Supported Scheduling Algorithms:
+* RR - Round Robin
+* LL - Least Loaded
+* R - Random
+
 ### Start workers:
 Depending on the number of workers provided in the ```config.json``` file, we should start those many workers.
 <br>
